@@ -1,4 +1,38 @@
-# Pong 
+## Requirements
+
+- Python 3.x
+- Pygame
+
+You can install the required packages using pip:
+
+```bash
+pip install pygame
+```
+
+## How It Works
+
+This is a simple Pong game implemented in Python using the Pygame library. The game features two paddles controlled by different players and a ball that bounces off the paddles and the screen's top and bottom edges. The objective is to score points by getting the ball past the opponent's paddle.
+
+### Game Controls
+
+- Player 1 (Left Paddle):
+  - Move Up: Press W
+  - Move Down: Press S
+- Player 2 (Right Paddle):
+  - Move Up: Press the Up Arrow
+  - Move Down: Press the Down Arrow
+ - Start the Game: Press Spacebar
+
+### Running the Game
+To run the game, execute the script:
+
+  ```bash
+python main.py
+```
+
+The Pygame window will open, displaying the grid and the current state of the cells.
+
+## Code Overview
 
 ### 1. Game Setup:
 - Screen Setup:
